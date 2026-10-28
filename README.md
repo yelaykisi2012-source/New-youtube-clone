@@ -1,5 +1,25 @@
 # Getting Started with Create React App
 
+## Buyurtma, yetkazib berish va to‘lov tizimi (Click, Payme, Naqd pul, Terminal)
+
+Do‘kon React frontend va Node.js API’dan foydalanadi. Quyidagi to‘lov usullari to‘liq ishlaydi:
+1. **Click onlayn to‘lov** — Click Upay va Click Evolution orqali to‘lov;
+2. **Payme onlayn to‘lov** — Payme tizimi orqali Uzcard va Humo kartalari bilan to‘lov;
+3. **Naqd pul orqali to‘lov** — mahsulot yetkazib berilganda kuryerga naqd topshiriladi;
+4. **Kuryer terminali (Uzcard/Humo)** — buyurtmani qabul qilishda karta orqali to‘lanadi;
+5. **Test / Demo to‘lov rejimi** — sozlamalar kiritilmaganda to‘lov jarayonini birgina tugma bilan sinab ko‘rish mumkin.
+
+API buyurtma ma’lumotlarini SQLite bazasiga saqlaydi, mahsulot narxlarini server katalogidan tekshiradi, Markaziy bankning rasmiy kursi bo‘yicha so‘mga aylantiradi. Standart yetkazib berish narxi: 50 000 so‘m.
+
+### Ishga tushirish:
+```powershell
+# 1. Muhit parametrlarini o'rnatish
+Copy-Item .env.example .env
+
+# 2. Server va frontendni birgalikda ishga tushirish
+npm start
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
