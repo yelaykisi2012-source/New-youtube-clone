@@ -81,13 +81,6 @@ function StoreApp() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
-  const handleCategoryClick = useCallback((cat) => {
-    setCategory(cat);
-    setPage("shop");
-    setSelectedProductId(null);
-    setSearchQuery("");
-  }, []);
-
   // Handle browser back/forward
   useEffect(() => {
     const handlePopState = () => {
