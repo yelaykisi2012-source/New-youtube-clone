@@ -1,5 +1,20 @@
 # Getting Started with Create React App
 
+## YouTube Data API v3 sozlamalari
+
+Ilova bosh sahifada ommabop videolarni ko‘rsatadi, YouTube Data API orqali video qidiradi va musiqa, o‘yinlar, yangiliklar, sport, ta’lim hamda jonli efir kategoriyalarini taklif qiladi. Shorts bo‘limi YouTube qidiruvida `#shorts` tegi va qisqa davomiylik filtri bilan videolarni topadi; API alohida Shorts endpoint bermagani sababli natijalar barcha Shorts videolarini kafolatlamaydi. Qidiruv natijalarida o‘zbek tiliga ustuvorlik beriladi; API til bo‘yicha qat’iy filtr bermagani uchun boshqa tillardagi videolar ham uchrashi mumkin. Tarix, keyinroq ko‘rish, yoqtirilganlar va obunalar brauzerda saqlanadi. Admin panel orqali qo‘shilgan video havolalari va profil rasmi ham faqat joriy brauzerda saqlanadi.
+
+1. Google Cloud Console’da loyiha yarating, **YouTube Data API v3** ni yoqing va API kaliti yarating.
+2. Loyiha ildizidagi `.env` fayliga quyidagi qiymatni qo‘shing:
+
+   ```env
+   REACT_APP_YOUTUBE_API_KEY=kalitingiz
+   ```
+
+3. Ishlayotgan `npm start` jarayonini qayta ishga tushiring.
+
+Brauzerda ishlaydigan React ilovasida API kaliti foydalanuvchilarga ko‘rinadi. Google Cloud Console’da kalitni HTTP referrerlar bilan cheklang va faqat YouTube Data API v3 uchun ruxsat bering. API kalitini ommaviy repozitoriyga yuklamang.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
